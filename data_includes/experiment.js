@@ -18,7 +18,9 @@ var defaults = [
     },
     "Question", {
         hasCorrect: false,
-        presentAsScale: true
+        presentAsScale: true,
+        leftComment: "Not at all acceptable",
+        rightComment: "Very acceptable"
     },
     "Message", {
         hideProgressBar: true
